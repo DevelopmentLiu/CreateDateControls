@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF38C2A11EB879D500DE2C5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38C2A01EB879D500DE2C5B /* main.m */; };
+		CF38C2A41EB879D500DE2C5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38C2A31EB879D500DE2C5B /* AppDelegate.m */; };
+		CF38C2A71EB879D600DE2C5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38C2A61EB879D600DE2C5B /* ViewController.m */; };
+		CF38C2AA1EB879D600DE2C5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF38C2A81EB879D600DE2C5B /* Main.storyboard */; };
+		CF38C2AC1EB879D600DE2C5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF38C2AB1EB879D600DE2C5B /* Assets.xcassets */; };
+		CF38C2AF1EB879D600DE2C5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF38C2AD1EB879D600DE2C5B /* LaunchScreen.storyboard */; };
+		CF38C2BA1EB879D600DE2C5B /* CreateDateControlsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38C2B91EB879D600DE2C5B /* CreateDateControlsTests.m */; };
+		CF38C2C51EB879D600DE2C5B /* CreateDateControlsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38C2C41EB879D600DE2C5B /* CreateDateControlsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF38C2B61EB879D600DE2C5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF38C2941EB879D500DE2C5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF38C29B1EB879D500DE2C5B;
+			remoteInfo = CreateDateControls;
+		};
+		CF38C2C11EB879D600DE2C5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF38C2941EB879D500DE2C5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF38C29B1EB879D500DE2C5B;
+			remoteInfo = CreateDateControls;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF38C29C1EB879D500DE2C5B /* CreateDateControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreateDateControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF38C2A01EB879D500DE2C5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF38C2A21EB879D500DE2C5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF38C2A31EB879D500DE2C5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF38C2A51EB879D600DE2C5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF38C2A61EB879D600DE2C5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF38C2A91EB879D600DE2C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF38C2AB1EB879D600DE2C5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF38C2AE1EB879D600DE2C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF38C2B01EB879D600DE2C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF38C2B51EB879D600DE2C5B /* CreateDateControlsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateDateControlsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF38C2B91EB879D600DE2C5B /* CreateDateControlsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateDateControlsTests.m; sourceTree = "<group>"; };
+		CF38C2BB1EB879D600DE2C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF38C2C01EB879D600DE2C5B /* CreateDateControlsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateDateControlsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF38C2C41EB879D600DE2C5B /* CreateDateControlsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateDateControlsUITests.m; sourceTree = "<group>"; };
+		CF38C2C61EB879D600DE2C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF38C2991EB879D500DE2C5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF38C2B21EB879D600DE2C5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF38C2BD1EB879D600DE2C5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF38C2931EB879D500DE2C5B = {
+			isa = PBXGroup;
+			children = (
+				CF38C29E1EB879D500DE2C5B /* CreateDateControls */,
+				CF38C2B81EB879D600DE2C5B /* CreateDateControlsTests */,
+				CF38C2C31EB879D600DE2C5B /* CreateDateControlsUITests */,
+				CF38C29D1EB879D500DE2C5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF38C29D1EB879D500DE2C5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF38C29C1EB879D500DE2C5B /* CreateDateControls.app */,
+				CF38C2B51EB879D600DE2C5B /* CreateDateControlsTests.xctest */,
+				CF38C2C01EB879D600DE2C5B /* CreateDateControlsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF38C29E1EB879D500DE2C5B /* CreateDateControls */ = {
+			isa = PBXGroup;
+			children = (
+				CF38C2A21EB879D500DE2C5B /* AppDelegate.h */,
+				CF38C2A31EB879D500DE2C5B /* AppDelegate.m */,
+				CF38C2A51EB879D600DE2C5B /* ViewController.h */,
+				CF38C2A61EB879D600DE2C5B /* ViewController.m */,
+				CF38C2A81EB879D600DE2C5B /* Main.storyboard */,
+				CF38C2AB1EB879D600DE2C5B /* Assets.xcassets */,
+				CF38C2AD1EB879D600DE2C5B /* LaunchScreen.storyboard */,
+				CF38C2B01EB879D600DE2C5B /* Info.plist */,
+				CF38C29F1EB879D500DE2C5B /* Supporting Files */,
+			);
+			path = CreateDateControls;
+			sourceTree = "<group>";
+		};
+		CF38C29F1EB879D500DE2C5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF38C2A01EB879D500DE2C5B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF38C2B81EB879D600DE2C5B /* CreateDateControlsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF38C2B91EB879D600DE2C5B /* CreateDateControlsTests.m */,
+				CF38C2BB1EB879D600DE2C5B /* Info.plist */,
+			);
+			path = CreateDateControlsTests;
+			sourceTree = "<group>";
+		};
+		CF38C2C31EB879D600DE2C5B /* CreateDateControlsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF38C2C41EB879D600DE2C5B /* CreateDateControlsUITests.m */,
+				CF38C2C61EB879D600DE2C5B /* Info.plist */,
+			);
+			path = CreateDateControlsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF38C29B1EB879D500DE2C5B /* CreateDateControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF38C2C91EB879D600DE2C5B /* Build configuration list for PBXNativeTarget "CreateDateControls" */;
+			buildPhases = (
+				CF38C2981EB879D500DE2C5B /* Sources */,
+				CF38C2991EB879D500DE2C5B /* Frameworks */,
+				CF38C29A1EB879D500DE2C5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreateDateControls;
+			productName = CreateDateControls;
+			productReference = CF38C29C1EB879D500DE2C5B /* CreateDateControls.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF38C2B41EB879D600DE2C5B /* CreateDateControlsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF38C2CC1EB879D600DE2C5B /* Build configuration list for PBXNativeTarget "CreateDateControlsTests" */;
+			buildPhases = (
+				CF38C2B11EB879D600DE2C5B /* Sources */,
+				CF38C2B21EB879D600DE2C5B /* Frameworks */,
+				CF38C2B31EB879D600DE2C5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF38C2B71EB879D600DE2C5B /* PBXTargetDependency */,
+			);
+			name = CreateDateControlsTests;
+			productName = CreateDateControlsTests;
+			productReference = CF38C2B51EB879D600DE2C5B /* CreateDateControlsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF38C2BF1EB879D600DE2C5B /* CreateDateControlsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF38C2CF1EB879D600DE2C5B /* Build configuration list for PBXNativeTarget "CreateDateControlsUITests" */;
+			buildPhases = (
+				CF38C2BC1EB879D600DE2C5B /* Sources */,
+				CF38C2BD1EB879D600DE2C5B /* Frameworks */,
+				CF38C2BE1EB879D600DE2C5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF38C2C21EB879D600DE2C5B /* PBXTargetDependency */,
+			);
+			name = CreateDateControlsUITests;
+			productName = CreateDateControlsUITests;
+			productReference = CF38C2C01EB879D600DE2C5B /* CreateDateControlsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF38C2941EB879D500DE2C5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Liu;
+				TargetAttributes = {
+					CF38C29B1EB879D500DE2C5B = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					CF38C2B41EB879D600DE2C5B = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF38C29B1EB879D500DE2C5B;
+					};
+					CF38C2BF1EB879D600DE2C5B = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF38C29B1EB879D500DE2C5B;
+					};
+				};
+			};
+			buildConfigurationList = CF38C2971EB879D500DE2C5B /* Build configuration list for PBXProject "CreateDateControls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF38C2931EB879D500DE2C5B;
+			productRefGroup = CF38C29D1EB879D500DE2C5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF38C29B1EB879D500DE2C5B /* CreateDateControls */,
+				CF38C2B41EB879D600DE2C5B /* CreateDateControlsTests */,
+				CF38C2BF1EB879D600DE2C5B /* CreateDateControlsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF38C29A1EB879D500DE2C5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF38C2AF1EB879D600DE2C5B /* LaunchScreen.storyboard in Resources */,
+				CF38C2AC1EB879D600DE2C5B /* Assets.xcassets in Resources */,
+				CF38C2AA1EB879D600DE2C5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF38C2B31EB879D600DE2C5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF38C2BE1EB879D600DE2C5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF38C2981EB879D500DE2C5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF38C2A71EB879D600DE2C5B /* ViewController.m in Sources */,
+				CF38C2A41EB879D500DE2C5B /* AppDelegate.m in Sources */,
+				CF38C2A11EB879D500DE2C5B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF38C2B11EB879D600DE2C5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF38C2BA1EB879D600DE2C5B /* CreateDateControlsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF38C2BC1EB879D600DE2C5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF38C2C51EB879D600DE2C5B /* CreateDateControlsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF38C2B71EB879D600DE2C5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF38C29B1EB879D500DE2C5B /* CreateDateControls */;
+			targetProxy = CF38C2B61EB879D600DE2C5B /* PBXContainerItemProxy */;
+		};
+		CF38C2C21EB879D600DE2C5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF38C29B1EB879D500DE2C5B /* CreateDateControls */;
+			targetProxy = CF38C2C11EB879D600DE2C5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF38C2A81EB879D600DE2C5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF38C2A91EB879D600DE2C5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF38C2AD1EB879D600DE2C5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF38C2AE1EB879D600DE2C5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF38C2C71EB879D600DE2C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF38C2C81EB879D600DE2C5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF38C2CA1EB879D600DE2C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CreateDateControls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Liu.CreateDateControls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF38C2CB1EB879D600DE2C5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CreateDateControls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Liu.CreateDateControls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF38C2CD1EB879D600DE2C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CreateDateControlsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Liu.CreateDateControlsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreateDateControls.app/CreateDateControls";
+			};
+			name = Debug;
+		};
+		CF38C2CE1EB879D600DE2C5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CreateDateControlsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Liu.CreateDateControlsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreateDateControls.app/CreateDateControls";
+			};
+			name = Release;
+		};
+		CF38C2D01EB879D600DE2C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CreateDateControlsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Liu.CreateDateControlsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CreateDateControls;
+			};
+			name = Debug;
+		};
+		CF38C2D11EB879D600DE2C5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CreateDateControlsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Liu.CreateDateControlsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CreateDateControls;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF38C2971EB879D500DE2C5B /* Build configuration list for PBXProject "CreateDateControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF38C2C71EB879D600DE2C5B /* Debug */,
+				CF38C2C81EB879D600DE2C5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF38C2C91EB879D600DE2C5B /* Build configuration list for PBXNativeTarget "CreateDateControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF38C2CA1EB879D600DE2C5B /* Debug */,
+				CF38C2CB1EB879D600DE2C5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF38C2CC1EB879D600DE2C5B /* Build configuration list for PBXNativeTarget "CreateDateControlsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF38C2CD1EB879D600DE2C5B /* Debug */,
+				CF38C2CE1EB879D600DE2C5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF38C2CF1EB879D600DE2C5B /* Build configuration list for PBXNativeTarget "CreateDateControlsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF38C2D01EB879D600DE2C5B /* Debug */,
+				CF38C2D11EB879D600DE2C5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF38C2941EB879D500DE2C5B /* Project object */;
+}
