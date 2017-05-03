@@ -15,6 +15,9 @@
 		CF38C2AF1EB879D600DE2C5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF38C2AD1EB879D600DE2C5B /* LaunchScreen.storyboard */; };
 		CF38C2BA1EB879D600DE2C5B /* CreateDateControlsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38C2B91EB879D600DE2C5B /* CreateDateControlsTests.m */; };
 		CF38C2C51EB879D600DE2C5B /* CreateDateControlsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38C2C41EB879D600DE2C5B /* CreateDateControlsUITests.m */; };
+		CF38C2D41EB87A3100DE2C5B /* LJYDateControls.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38C2D31EB87A3100DE2C5B /* LJYDateControls.m */; };
+		CF38C2D81EB88B2500DE2C5B /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38C2D61EB88B2500DE2C5B /* CollectionViewCell.m */; };
+		CF38C2D91EB88B2500DE2C5B /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF38C2D71EB88B2500DE2C5B /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		CF38C2C01EB879D600DE2C5B /* CreateDateControlsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateDateControlsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF38C2C41EB879D600DE2C5B /* CreateDateControlsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateDateControlsUITests.m; sourceTree = "<group>"; };
 		CF38C2C61EB879D600DE2C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF38C2D21EB87A3100DE2C5B /* LJYDateControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJYDateControls.h; sourceTree = "<group>"; };
+		CF38C2D31EB87A3100DE2C5B /* LJYDateControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJYDateControls.m; sourceTree = "<group>"; };
+		CF38C2D51EB88B2500DE2C5B /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		CF38C2D61EB88B2500DE2C5B /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		CF38C2D71EB88B2500DE2C5B /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,11 @@
 				CF38C2AD1EB879D600DE2C5B /* LaunchScreen.storyboard */,
 				CF38C2B01EB879D600DE2C5B /* Info.plist */,
 				CF38C29F1EB879D500DE2C5B /* Supporting Files */,
+				CF38C2D21EB87A3100DE2C5B /* LJYDateControls.h */,
+				CF38C2D31EB87A3100DE2C5B /* LJYDateControls.m */,
+				CF38C2D51EB88B2500DE2C5B /* CollectionViewCell.h */,
+				CF38C2D61EB88B2500DE2C5B /* CollectionViewCell.m */,
+				CF38C2D71EB88B2500DE2C5B /* CollectionViewCell.xib */,
 			);
 			path = CreateDateControls;
 			sourceTree = "<group>";
@@ -248,6 +261,7 @@
 			files = (
 				CF38C2AF1EB879D600DE2C5B /* LaunchScreen.storyboard in Resources */,
 				CF38C2AC1EB879D600DE2C5B /* Assets.xcassets in Resources */,
+				CF38C2D91EB88B2500DE2C5B /* CollectionViewCell.xib in Resources */,
 				CF38C2AA1EB879D600DE2C5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF38C2A71EB879D600DE2C5B /* ViewController.m in Sources */,
+				CF38C2D81EB88B2500DE2C5B /* CollectionViewCell.m in Sources */,
+				CF38C2D41EB87A3100DE2C5B /* LJYDateControls.m in Sources */,
 				CF38C2A41EB879D500DE2C5B /* AppDelegate.m in Sources */,
 				CF38C2A11EB879D500DE2C5B /* main.m in Sources */,
 			);
